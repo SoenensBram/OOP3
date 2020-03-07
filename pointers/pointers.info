@@ -1,5 +1,23 @@
 Pointer:
 
-Address:
-
+ADDRESS:
 & -> Address-of operator
+
+WHY?
+- aanpasbare argumenten
+- complexe objeccten
+    =>Minder geheugen
+- meerdere "return" values
+- arrays!!!
+
+VOORBEELD:
+int number = 42;
+int         *           pointerToNumber;
+//TYPE      Pointer     VARNAME
+//NOOIT VERGETEN TE INITALISEREN
+pointerToNumber = &number;
+
+DEREFERENCING:
+*pointerToNumber = 24;
+
+Array is een pointer!
