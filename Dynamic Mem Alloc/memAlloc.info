@@ -1,0 +1,11 @@
+Dynamic Mem Alloc
+
+Memeory
+Cpu
+
+Heap => ... <= stack (local vars, argumenten, return value) | data (Global vars) | code |
+
+Block Memeory
+=> Dynamic Memeory @ Runtime
+stack
+=> @ compile time
